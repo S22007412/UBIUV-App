@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         mywebView=(WebView) findViewById(R.id.webview);
         mywebView.setWebViewClient(new WebViewClient());
-        mywebView.loadUrl("https://umap.openstreetmap.fr/es/map/mapa-fiec_1058279");
+        mywebView.loadUrl("https://s22007412.github.io/UBIUV/");
         WebSettings webSettings=mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }

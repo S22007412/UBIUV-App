@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         mywebView=(WebView) findViewById(R.id.webview);
         mywebView.setWebViewClient(new WebViewClient());
-        mywebView.loadUrl("https://s22007412.github.io/UBIUV/");
+        mywebView.loadUrl("http://ubiuv.duckdns.org/");
         WebSettings webSettings=mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
